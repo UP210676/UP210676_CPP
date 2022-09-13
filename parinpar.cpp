@@ -17,3 +17,5 @@ int main(int argc, char const *argv[])
     }
     return 0;
 }
+
+//programa en c++ por Axel Gutierrez equizde

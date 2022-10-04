@@ -25,6 +25,11 @@ int main(int argc, char const *argv[])
     cout << "este programa muestra los tipos de datos en c++" << endl;
     cout << "El numero entero es: " << entero << endl;
     cout << "El tamaño del entero es : " << sizeof(entero) << " bytes" << endl;
-
+    cout << "El numero flotante es: " << flotante << endl;
+    cout << "El tamaño del flotante es : " << sizeof(flotante) << " bytes" << endl;
+    cout << "El numero doble es: " << doble << endl;
+    cout << "El tamaño del doble es : " << sizeof(flotante) << " bytes" << endl;
+    cout << "El numero caracter es: " << caracter << endl;
+    cout << "El tamaño del caracter es : " << sizeof(caracter) << " bytes" << endl;
     return 0;
 }

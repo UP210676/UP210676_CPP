@@ -1,3 +1,9 @@
+/* Unidad 2: Descuento de renta anual.
+ * Axel Gutierrez Rodriguez
+ * 10/10/2022
+ * Descripción: Calcular el impuesto de renta anual de una persona, dependiendo de su renta anual utilizando if.
+ */
+
 #include <iostream>
 
 int main(int argc, char const *argv[])

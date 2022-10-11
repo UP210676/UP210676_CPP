@@ -1,3 +1,10 @@
+/* Unidad 2: Abecedaro.
+ * Axel Gutierrez Rodriguez
+ * 10/2022
+ * Descripción: Utilizacion de las variables de tipo char y los ciclos for para imprimir el abecedario
+ * completo al derecho y al revez.
+ */
+
 #include <iostream>
 using namespace std;
 

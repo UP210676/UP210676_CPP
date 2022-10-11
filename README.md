@@ -3,6 +3,7 @@
 
 <center>
 Hola, bienvenidos a programación!!! :3
+(readme de prueba que creamos en clase)
 </center>
 
 # Holaa
@@ -50,7 +51,7 @@ ___
 
 ```
 
-![nierautomata2b](/Unidad1/img/iTVzMDAt.jpg "2b de Nier Automata")
+![nierautomata2b](https://github.com/UP210676/UP210676_CPP/blob/main/Unidad1/Imagenes/iTVzMDAt.jpg?raw=true "2b de Nier Automata")
 
 
 <div align="center">

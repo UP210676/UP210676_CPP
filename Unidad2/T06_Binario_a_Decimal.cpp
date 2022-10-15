@@ -1,7 +1,7 @@
 /* Unidad 2: Decimal a binario.
  * Axel Gutierrez Rodriguez
  * 10/2022
- * Descripción: Crear un progrma que sea capaz de transformar un numero decimal a binario.
+ * Descripción: Crear un progrma que sea capaz de transformar un numero decimal a binario y binario a decimal.
  */
 
 #include <stdio.h>
@@ -19,7 +19,9 @@ int main(int argc, char const *argv[])
        tam = strlen(bin);
        for(i=0;i<tam;i++)
           dec=(bin[i]-48)*pow(2,(tam-1)-i)+dec;
-          printf("El numero %s en deciaml es: %d\n", bin,dec);
+          printf("El numero binario %s en deciaml es: %d\n", bin,dec);
+
+      
 
     return 0;
 }

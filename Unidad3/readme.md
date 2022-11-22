@@ -1,4 +1,4 @@
-# <center>Unidad 1</center>
+# <center>Unit 3</center>
 ## <center> Axel Gutierrez Rodriguez  |  UP210676 | ISC03A </center>
 <br><br>
 In this unit we use a lot of functions in programming to solve the different problems that we face. They are quite useful and sometimes make the programs shorter and simpler, but in terms of logic they are usually a bit more complex.  

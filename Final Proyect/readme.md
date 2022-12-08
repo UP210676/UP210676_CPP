@@ -1,5 +1,7 @@
 # Cat Game || Tic Tac Toe || Xs and Os
 
+[Code](https://github.com/UP210676/UP210676_CPP/blob/main/Final%20Proyect/GatoGame.cpp)
+
 Is a pencil and paper game between two players: O and X, who alternately mark the spaces on a 3×3 board.
 
 ## Code final proyect
@@ -27,7 +29,7 @@ We use the C++ language and the game is played on console drawn with characters;
 char GameArea[3][3] = {{'1', '2', '3'}, {'4', '5', '6'}, {'7', '8', '9'}};
 ```
 
-This incomplete part of the function that checks for the end of the game is the most important part of the code. By means of conditional ifs with comparisons, matches are sought in the following manner: line, diagonal and horizontal. If one is true, return true (see the code to read the complete function).
+This incomplete part of the function that checks for the end of the game is the most important part of the code. By means of conditional ifs with comparisons, matches are sought in the following manner: line, diagonal and horizontal. If one is true, return true (see the [code](https://github.com/UP210676/UP210676_CPP/blob/main/Final%20Proyect/GatoGame.cpp) to read the complete function).
 
 ``` c++
 bool CheckWinner(int Play)

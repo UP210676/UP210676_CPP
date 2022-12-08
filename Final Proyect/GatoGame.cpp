@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>     //Esta libreria carga todas las librerias estandar
 using namespace std; 
 
-//el funcionamiento puede no ser el deseado si se utiliza windows. Programado en Linux.
-
 
 //____________________________________ Usuario vs IA_______________________________________________-
 
@@ -106,7 +104,7 @@ int minimax(char tablero[][tamano], int movimientos, bool isAI)
 {
 	int movimiento = 0;
 	int mejormov = 0;
-	if (FinDelJuego(tablero) == true)  
+	if (FinDelJuego(tablero) == true)  //calcular si ya se probaron los movimientos hasta ganar (en minimax)
 	{
 		if (isAI == true)	
 			return -1;
@@ -115,20 +113,21 @@ int minimax(char tablero[][tamano], int movimientos, bool isAI)
 	}
 	else
 	{
-		if(movimientos < 9)  
+		if(movimientos < 9)  // Verificar si quedan movimientos 
 		{
 			if(isAI == true)
 			{
 				mejormov = -999;
-				for(int i=0; i<tamano; i++) 
+				for(int i=0; i<tamano; i++)  //moverse por todas las celdas 
 				{
 					for(int j=0; j<tamano; j++)
 					{
-						if (tablero[i][j] == ' ') 
-							tablero[i][j] = MovComputadora; 
+						if (tablero[i][j] == ' ') // verificar si la celda esta disponible
+						{
+							tablero[i][j] = MovComputadora; //colocar la ficha "0" en la celda disponible
 							movimiento = minimax(tablero, movimientos + 1, false); //recursividad 
 							tablero[i][j] = ' '; //deshacer el movimiento
-							if(movimiento > mejormov) 
+							if(movimiento > mejormov) //escoger el valor maximo
 							{
 								mejormov = movimiento;
 							}
@@ -176,9 +175,9 @@ int MejorMovimiento(char tablero[][tamano], int numerodejuegos)
 	{
 		for (int j = 0; j < tamano; j++)
 		{
-			if (tablero[i][j] == ' ') 
+			if (tablero[i][j] == ' ') // verificar celda disponible
 			{
-				tablero[i][j] = MovComputadora; 
+				tablero[i][j] = MovComputadora; //colocar "0"
 				movimiento = minimax(tablero, numerodejuegos+1, false);
 				tablero[i][j] = ' ';
 				if(movimiento > mejormov)

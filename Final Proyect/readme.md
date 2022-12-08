@@ -124,7 +124,13 @@ Considering that the rest of the functions and methods are already committed in 
 
 ---
 <br>
+
+## Flowchart of code operation
 <br>
+
+![minimaxalgo](https://github.com/UP210676/UP210676_CPP/blob/main/Final%20Proyect/images/Flowchart%20Template%20(2).jpg?raw=true)
+
+---
 
 ##  Authors and acknowledgment
 Player vs Player code by Axel Emir Saucedo Zermeño <br>

@@ -55,7 +55,7 @@ For the realization of this code, on my part, Axel Gutiérrez was very similar. 
 The following image shows how the algorithm works as a tree of possibilities that are generated from a play. The machine reads the play and calculates the possibilities, discarding the ones that will grant victory to the player and as a last step and to add more intelligence to the program, discarding the longest paths to create a more efficient AI.
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/6/6f/Minimax.svg)
-![alt text](https://www.researchgate.net/publication/262672371/figure/fig1/AS:393455625883662@1470818539933/Game-tree-for-Tic-Tac-Toe-game-using-MiniMax-algorithm.png)
+![alt text](https://soka.gitlab.io/blog/post/2019-08-26-r-arboles-de-decision/images/01.png)
 
 <br>
 
